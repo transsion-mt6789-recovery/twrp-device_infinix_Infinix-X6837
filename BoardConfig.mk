@@ -9,6 +9,10 @@ DEVICE_PATH := device/infinix/Infinix-X6837
 # Inherit from mt6789-common
 include device/transsion/mt6789-common/BoardConfigCommon.mk
 
+# Brightness
+override TW_DEFAULT_BRIGHTNESS := 2047
+override TW_MAX_BRIGHTNESS := 4095
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := Infinix-X6837
 
